@@ -15,6 +15,8 @@ sudo apt-get install libopenni-dev
 sudo apt-get install libopenni2-dev 
 sudo apt-get install libvtk7-deb libvtk6-dev
 sudo apt-get install qt5-default
+sudo apt install libboost-all-dev
+
 
 #一键安装的
 #sudo apt-get install libpcl-dev
