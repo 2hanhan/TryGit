@@ -7,4 +7,4 @@ ubuntu 环境配置以及软件设置的一些东西
 
 # 环境配置
 ## [OpenCV](https://github.com/2hanhan/ubuntu-and-.../blob/main/OpenCV_3-4-1.sh)
-## [PCL]()
+## [PCL](https://github.com/2hanhan/ubuntu-and-.../blob/main/pcl.sh)
