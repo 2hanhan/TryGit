@@ -26,12 +26,12 @@ sudo apt install libboost-all-dev
 git clone https://github.com/PointCloudLibrary/pcl.git
 cd pcl/
 #设置版本
-git checkout tags/pcl-1.8.1
+git checkout tags/pcl-1.9.1
 #编译安装
 mkdir build
 cd build
 cmake  -DCMAKE_BUILD_TYPE=Release \
--DCMAKE_INSTALL_PREFIX=/usr/local/pcl/pcl-1.8.1 \
+-DCMAKE_INSTALL_PREFIX=/usr/local/pcl/pcl-1.9.1 \
 ..
 make -j14
 sudo make install
