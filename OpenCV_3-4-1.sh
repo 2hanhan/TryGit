@@ -16,7 +16,7 @@ cd build/
 cmake \
 -DCMAKE_BUILD_TYPE=RELEASE \
 -DCMAKE_INSTALL_PREFIX=/usr/local/opencv/opencv-3.4.1 \
--DOPENCV_EXTRA_MODULES_PATH=/home/wgq/下载/opencv/opencv_contrib/modules \
+-DOPENCV_EXTRA_MODULES_PATH=/home/wgq/下载/opencv/opencv_contrib/modules \#opencv_contrib路径
 -DWITH_CUDA=OFF \
 -DBUILD_DOCS=OFF \
 -DBUILD_EXAMPLES=OFF \
