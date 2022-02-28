@@ -10,13 +10,14 @@ git clone https://github.com/opencv/opencv_contrib.git
 cd opencv_contrib
 git checkout tags/3.4.1
 cd .. #回到opencv目录下
+# 最后分段执行、下载可能会断掉
 mkdir build
 cd build/
 
 cmake \
 -DCMAKE_BUILD_TYPE=RELEASE \
 -DCMAKE_INSTALL_PREFIX=/usr/local/opencv/opencv-3.4.1 \
--DOPENCV_EXTRA_MODULES_PATH=/home/wgq/下载/opencv/opencv_contrib/modules \ #opencv_contrib路径
+-DOPENCV_EXTRA_MODULES_PATH=/home/wgq/下载/opencv/opencv_contrib/modules \
 -DWITH_CUDA=OFF \
 -DBUILD_DOCS=OFF \
 -DBUILD_EXAMPLES=OFF \
@@ -24,5 +25,5 @@ cmake \
 -DBUILD_PERF_TESTS=OFF \
 ..
 #编译安装
-make -j8
+make -j14
 sudo make install
