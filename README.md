@@ -2,6 +2,7 @@
 ubuntu 环境配置以及软件设置的一些东西
 # 软件or工具使用
 ### 软件
+## [jupyter notebook使用](https://github.com/2hanhan/ubuntu-and-.../blob/main/jupyter%20notebook.md)
 ## [clash配置使用](https://github.com/2hanhan/ubuntu-and-.../blob/main/clash.md)
 ### tool
 ## [学习git的使用](https://github.com/2hanhan/ubuntu-and-.../blob/main/trygit.md)
