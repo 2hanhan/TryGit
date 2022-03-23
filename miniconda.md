@@ -18,3 +18,19 @@ source ./miniconda3/bin/activate
 ```
 
 ## 使用
+查看以及安装的虚拟环境
+```bash
+conda info -e
+```
+查看安装的库
+```bash
+conda list
+```
+创建虚拟环境
+```bash
+conda create -n name python=3.6
+```
+激活conda虚拟环境
+```bash
+conda activate name
+```
