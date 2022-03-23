@@ -38,6 +38,10 @@ conda activate name
 ```bash
 conda remove -n name
 ```
+安装库
+```bash
+conda install libname
+```
 ## 一些库安装
 就是和pip install 命令相差太多的
 - opencv `conda install -c menpo opencv3`
