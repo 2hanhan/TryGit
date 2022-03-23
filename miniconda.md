@@ -41,3 +41,4 @@ conda remove -n name
 ## 一些库安装
 就是和pip install 命令相差太多的
 - opencv `conda install -c menpo opencv3`
+- pytorch [各种版本参考官网](https://pytorch.org/get-started/previous-versions/)
