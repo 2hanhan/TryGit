@@ -34,3 +34,7 @@ conda create -n name python=3.6
 ```bash
 conda activate name
 ```
+删除conda虚拟环境
+```bash
+conda remove -n name
+```
