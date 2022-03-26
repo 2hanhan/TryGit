@@ -27,7 +27,7 @@ ffmpeg -ss 00:00:00 -i video.mp4 -to 00:00:24 -r 5 -vf scale=1080:-1 ./out/outpu
 - `-vf` : 图形筛选器，GIF 的缩放大小,scale=宽度:-1
 ### gif拼接
 ```bash
-convert -delay 120-loop 0 ./output/*.gif output.gif
+ convert -delay 10 -loop 0 ./out/*.gif output.gif
 ```
-- `-delay` 120　:　GIF 动画速度
+- `-delay` 10　:　GIF 动画循环一遍使用时间
 - `-loop 0`　　 : 无限循环
