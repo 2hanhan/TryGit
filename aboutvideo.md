@@ -9,7 +9,7 @@ sudo apt-get install  mplayer
 sudo apt-get install imagemagick 
 sudo apt-get install ffmpeg
 ```
-### mp4=>gif
+### mp4->gif
 1. 方法1
 ```bash
 mplayer -ao null video.mp4 -vo jpeg:outdir=./out
