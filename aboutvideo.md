@@ -17,7 +17,7 @@ convert ./out/*.jpg view.gif
 ```
 2. 方法2
 ```bash
-ffmpeg -ss 00:00:00 -i video.mp4 -to 00:00:24 -r 5 -vf scale=1080:-1 .out/output.gif
+ffmpeg -ss 00:00:00 -i video.mp4 -to 00:00:24 -r 5 -vf scale=1080:-1 ./out/output.gif
 ```
 各个参数含义
 - `-ss` : 开始时间
@@ -27,7 +27,7 @@ ffmpeg -ss 00:00:00 -i video.mp4 -to 00:00:24 -r 5 -vf scale=1080:-1 .out/output
 - `-vf` : 图形筛选器，GIF 的缩放大小,scale=宽度:-1
 ### gif拼接
 ```bash
-convert -delay 120-loop 0 .output/*.gif output.gif
+convert -delay 120-loop 0 ./output/*.gif output.gif
 ```
 - `-delay` 120　:　GIF 动画速度
 - `-loop 0`　　 : 无限循环
