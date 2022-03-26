@@ -6,6 +6,7 @@ ubuntu 环境配置以及软件设置的一些东西
 ## 软件
 ### [clash配置使用](https://github.com/2hanhan/ubuntu-and-.../blob/main/clash.md)
 ### [jupyter notebook使用](https://github.com/2hanhan/ubuntu-and-.../blob/main/jupyter%20notebook.md)
+### [录屏or视频播放or格式转化](https://github.com/2hanhan/ubuntu-and-.../blob/main/aboutvideo.md)
 ## tool
 ### [学习git的使用](https://github.com/2hanhan/ubuntu-and-.../blob/main/trygit.md)
 ### [gdb工具调试](https://github.com/2hanhan/ubuntu-and-.../blob/main/gdb.sh)
