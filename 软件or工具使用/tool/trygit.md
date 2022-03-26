@@ -21,3 +21,20 @@ git push
 #输入用户名
 #输入access token
 ```
+
+# ==推荐VSCode 使用git==
+感觉最简单的使用方式是这样的
+- 不用每次都输密码，更不要说那个很长的token
+- 不用记指令，一键同步懒人福音好吧
+- 个人使用记录自己的程序应该是够用了，
+- 多人共同贡献啥的我也不会
+## step 0
+安装VSCode，登录github账号，安装git工具
+## step 1
+在github上新建一个新的项目
+## step 2
+使用`git clone https://`把它克隆到本地
+## step 3 
+使用VSCode打开，然后使用VSCode的git工具直接更新同步
+注意写`.gitignore`文件设置哪些文件不需要上传
+
