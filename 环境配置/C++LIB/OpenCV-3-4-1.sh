@@ -1,3 +1,5 @@
+# 依赖库
+sudo apt-get install libgtk2.0-dev pkg-config
 #在home下载目录下运行，主要修改[username]
 #下载
 git clone https://github.com/opencv/opencv.git
