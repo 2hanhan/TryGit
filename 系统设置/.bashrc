@@ -8,6 +8,10 @@ export OpenCV_DIR=/usr/local/opencv/opencv-3.4.1
 #pcl
 export PCL_DIR=/usr/local/pcl/pcl-1.9.1
 
+#Ceres
+#export Ceres_DIR=/usr/local/ceres/ceres-solver-1.14.0
+export Ceres_DIR=/usr/local/ceres/ceres-solver-2.0.0
+
 #eigen3
 export Eigen3_DIR=/usr/local/include/eigen3/Eigen
 
