@@ -22,3 +22,5 @@ cmake  -DCMAKE_BUILD_TYPE=Release \
 ..
 make -j8
 sudo make install
+
+#我这里安装后总会有找不到rotation.h的头文件，切换但2.0.0版本就好使了
