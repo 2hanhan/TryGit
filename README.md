@@ -20,6 +20,7 @@ ubuntu 环境配置以及软件设置的一些东西
 ### [OpenCV3.4.1](环境配置/C++LIB/OpenCV-3-4-1.sh)
 ### [PCL1.9.1](环境配置/C++LIB/pcl1-9-1.sh)
 ### [eigen3.3.0](环境配置/C++LIB/eigen3.3.0.sh)
+### [ceres-solver1.14.0](/环境配置/C++LIB/ceres-solver-1.14.0.sh)
 ## python
 ### [miniconda](环境配置/python/miniconda.md)
 
