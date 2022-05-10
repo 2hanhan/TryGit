@@ -7,7 +7,7 @@ sudo apt-get install libhdf5-dev
 sudo apt-get install libhdf5-serial-dev
 # 下载解压
 wget download.osgeo.org/liblas/libLAS-1.8.1.tar.bz2
- tar xjvf libLAS-1.8.1.tar.bz2
+tar xjvf libLAS-1.8.1.tar.bz2
 #编译安装
 cd libLAS-1.8.1/
 mkdir makefiles

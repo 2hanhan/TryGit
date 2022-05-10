@@ -25,7 +25,7 @@ ubuntu 环境配置以及软件设置的一些东西
 [eigen3.3.9](环境配置/C++LIB/eigen3.3.9.sh)
 ### [PCL1.9.1](环境配置/C++LIB/pcl1-9-1.sh)
 依赖于`eigen3`
-###ceres-solver
+### ceres-solver
  [ceres-solver1.14.0](环境配置/C++LIB/ceres1-14-0.sh)
  [ceres-solver2.0.0](环境配置/C++LIB/ceres2-2-0.sh)
 依赖于`eigen3`
