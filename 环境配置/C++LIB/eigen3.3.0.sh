@@ -1,3 +1,4 @@
+sudo apt install mlocate
 #删除之前版本
 locate eigen3
 sudo rm -rf /usr/include/eigen3
