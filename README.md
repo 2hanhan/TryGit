@@ -29,6 +29,8 @@ ubuntu 环境配置以及软件设置的一些东西
  [ceres-solver1.14.0](环境配置/C++LIB/ceres1-14-0.sh)
  [ceres-solver2.0.0](环境配置/C++LIB/ceres2-2-0.sh)
 依赖于`eigen3`
+### pangolin
+ [pangolin](环境配置/C++LIB/pangolin.sh)
 ## python
 ### [miniconda](环境配置/python/miniconda.md)
 
