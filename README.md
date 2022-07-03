@@ -31,6 +31,7 @@ ubuntu 环境配置以及软件设置的一些东西
 依赖于`eigen3`
 ### pangolin
  [pangolin](环境配置/C++LIB/pangolin.sh)
+ 也许依赖于`eigen3`
 ## python
 ### [miniconda](环境配置/python/miniconda.md)
 
