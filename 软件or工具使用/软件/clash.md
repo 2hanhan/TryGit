@@ -25,3 +25,8 @@ chmod + x clash-linux-amd64 #添加可执行权限
 ```bash
 git config --global http.proxy 'http://127.0.0.1:7890'
 ```
+
+# apt临时代理
+```
+sudo apt-get -o Acquire::http::proxy="http://127.0.0.1:7890/" update
+```
