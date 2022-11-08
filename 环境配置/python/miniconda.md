@@ -45,4 +45,4 @@ conda install libname
 ## 一些库安装
 就是和pip install 命令相差太多的
 - opencv `conda install -c menpo opencv3`
-- pytorch [各种版本参考官网](https://pytorch.org/get-started/previous-versions/)
+- pytorch [各种版本参考官网](https://pytorch.org/get-started/previous-versions/)或者[各种版本参考官网](https://download.pytorch.org/whl/torch_stable.html)
