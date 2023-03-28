@@ -28,19 +28,19 @@ conda list
 ```
 创建虚拟环境
 ```bash
-conda create -n name python=3.6
+conda create -n <name> python=3.6
 ```
 激活conda虚拟环境
 ```bash
-conda activate name
+conda activate <name> --all
 ```
 删除conda虚拟环境
 ```bash
-conda remove -n name
+conda remove -n <name>
 ```
 安装库
 ```bash
-conda install libname
+conda install <libname>
 ```
 ## 一些库安装
 就是和pip install 命令相差太多的
