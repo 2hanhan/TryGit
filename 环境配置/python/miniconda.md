@@ -32,11 +32,11 @@ conda create -n <name> python=3.6
 ```
 激活conda虚拟环境
 ```bash
-conda activate <name> --all
+conda activate <name> 
 ```
 删除conda虚拟环境
 ```bash
-conda remove -n <name>
+conda remove -n <name> --all
 ```
 安装库
 ```bash
