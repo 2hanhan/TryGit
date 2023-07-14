@@ -24,7 +24,7 @@ git push
 ```
 ## step 5 设置tag 和推送
 ```bash
-git tag - a <tag name> - m "描述文字" #设置本地的tag
+git tag -a <tag name> - m "描述文字" #设置本地的tag
 
 git push origin <tag name> #推送一个本地标签
 git push origin --tags #推送所有的本地tag
