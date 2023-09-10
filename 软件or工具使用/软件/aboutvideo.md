@@ -10,11 +10,13 @@ sudo apt-get install imagemagick
 sudo apt-get install ffmpeg
 ```
 ### mp4 => gif
-1. 方法1
+
+1. 方法1(不好用)
 ```bash
 mplayer -ao null video.mp4 -vo jpeg:outdir=./out
 convert ./out/*.jpg view.gif
 ```
+
 2. 方法2
 ```bash
 ffmpeg -ss 00:00:00 -i video.mp4 -to 00:00:24 -r 5 -vf scale=1080:-1 ./out/output.gif
@@ -31,3 +33,6 @@ ffmpeg -ss 00:00:00 -i video.mp4 -to 00:00:24 -r 5 -vf scale=1080:-1 ./out/outpu
 ```
 - `-delay` 10　:　GIF 动画循环一遍使用时间
 - `-loop 0`　　 : 无限循环
+
+### 视频压缩[参考](https://zhuanlan.zhihu.com/p/255042580)
+
