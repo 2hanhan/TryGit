@@ -1,12 +1,4 @@
 
-## 下载安装命令行版本
-从[https://github.com/Dreamacro/clash/releases]https://github.com/Dreamacro/clash/releases](https://github.com/Dreamacro/clash/releases)下载
-这里使用的clash-linux-amd64
-然后解压
-```bash
-chmod + x clash-linux-amd64 #添加可执行权限
-./clash-linux-amd64运行
-```
 ## 下载安装windows版本
 这个玩意有界面
 https://github.com/Fndroid/clash_for_windows_pkg/releases/tag/0.20.6

@@ -8,7 +8,7 @@ ubuntu 环境配置以及软件设置的一些东西
 
 # 软件or工具使用
 ## 软件
-### [clash配置使用](软件or工具使用/软件/clash.md)
+### [http代理配置](软件or工具使用/软件/http.md)
 ### [jupyter notebook使用](软件or工具使用/软件/jupyternotebook.md)
 ### [录屏or视频播放or格式转化](软件or工具使用/软件/aboutvideo.md)
 ### [安装微信](软件or工具使用/软件/aboutvideo.md)
